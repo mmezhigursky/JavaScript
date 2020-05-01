@@ -25,3 +25,16 @@ $(document).ready(function() {
     });
   });
 });
+
+
+document.addEventListener('DOMContentLoaded', function(event) {
+  const menu = document.querySelector('.menu');
+  const inter_el =  document.querySelector('.inter_el');
+  menu.addEventListener('click', function(){
+
+    menu.classList.toggle('active');
+    
+
+  });
+
+});
