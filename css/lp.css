@@ -81,6 +81,34 @@ h2,h1,h3{
     /* border: rgb(0, 255, 128) 2px solid; */
   }
 
+
+  .group_profit_rev{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    padding: 20px;
+  }
+  
+  .group_profit_rev p {
+    max-width: 480px;
+    }
+  .group_profit{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+  }
+  .group_profit p {
+  max-width: 480px;
+  }
+  
+  .prof_img img{
+    position: relative;
+    width: 96%;
+    max-width: 300px;
+    max-height: 200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
 /*##################################*/
 /*HERO*/
 /*##################################*/
@@ -231,7 +259,7 @@ max-width: 480px;
 .prof_img img{
   position: relative;
   width: 96%;
-  width: 300px;
+  max-width: 300px;
   max-height: 200px;
   margin: 0 auto;
   text-align: center;
